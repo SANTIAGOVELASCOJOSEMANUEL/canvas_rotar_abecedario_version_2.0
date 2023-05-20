@@ -1,0 +1,83 @@
+/*#circlechart{
+    background-color:green;
+    position: absolute;
+
+    */
+    body {
+        background-image: url(fondo.jpeg);
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+
+      }
+
+      
+      section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: 100vh;
+        padding-top: 20px;
+      }
+            
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Alineación a la izquierda */
+      }
+      
+      label {
+        font-size: 14px;
+        margin-bottom: 5px;
+      }
+      
+      input[type="text"],
+      input[type="number"] {
+        padding: 5px;
+        margin-bottom: 10px;
+        width: 200px;
+      }
+      
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+      
+
+
+      .titulo {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      
+      .title {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      
+      .botones {
+        position: absolute;
+        left: 20px;
+        top: 70px;
+      }
+      
+      canvas {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 1px solid #ddd;
+        background: rgba(0, 0, 0, .4);
+        box-shadow: 0 0 10px #00DD00, 0 0 40px #00DD00;
+        font-weight: normal;
+      }      
+
